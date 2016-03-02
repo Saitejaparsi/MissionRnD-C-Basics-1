@@ -17,7 +17,8 @@ int count(int num1, int num2) {
 	{
 		return -1;
 	}
+	
 	else
-		return num2 / 2;
+		return num2 / num1;
 	
 }
