@@ -17,9 +17,8 @@ NOTES: 		use stdarg.h header.
 
 int variableArguments(int arg_count, ...)
 {
-
+	int count = 0, i;
 	va_list marks;
-	int count = 0,i;
 	va_start(marks, arg_count);
 	for (i = 0; i < arg_count; i++)
 	{
